@@ -13,11 +13,16 @@
         <?php if(isset($_GET['error'])) { ?>
             <p class="error"> <?php echo $_GET['error']; ?></p>
         <?php } ?>
-<label>Username</label>
-<input type="text" name="uname" placeholder="Username"><br>
-<label>Password</label>
-<input type="password" name="password" placeholder="Password"><br>
+        
+<label><ion-icon name="mail-outline"></ion-icon>   Username</label><br>
+<input type="text" name="uname" placeholder="   Username"><br>
+
+<label><ion-icon name="lock-open-outline"></ion-icon>   Password</label><br>
+<input type="password" name="password" placeholder="   Password"><br>
 <button type="submit">Login</button>
+<a href="">Forgot password?</a>
     </form>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
